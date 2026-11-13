@@ -11,10 +11,10 @@ int main() {
     int i, j;
     srand(time(NULL));
     while (1) {
-        printf("\n--- МЕНЮ ---\n");
-        printf("1. Ввести матрицу вручную\n");
-        printf("2. Сгенерировать случайные числа в матрицу\n");
-        printf("3. Выйти из программы\n");
+        printf("МЕНЮ\n");
+        printf("1.Ввести матрицу вручную\n");
+        printf("2.Сгенерировать случайные числа в матрицу\n");
+        printf("3.Выйти из программы\n");
         scanf("%d", &choice);
         if (choice == 3) {
             printf("Выход из программы.\n");
@@ -41,7 +41,7 @@ int main() {
             }
         }
 
-        printf("\nИсходная матрица:\n");
+        printf("Исходная матрица:\n");
         for (i = 0; i < n; i++) {
             for (j = 0; j < m; j++) {
                 printf("%4d ", M[i][j]);
@@ -72,7 +72,7 @@ int main() {
             M[i][min_idx] = temp;
         }
 
-        printf("\nПолученная матрица:\n");
+        printf("Полученная матрица:\n");
         for (i = 0; i < n; i++) {
             for (j = 0; j < m; j++) {
                 printf("%4d ", M[i][j]);
