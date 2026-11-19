@@ -7,7 +7,8 @@
 #define MAX_SIZE 25
 int main() {
     setlocale(LC_ALL, ".UTF8");
-    int n, m, choice;
+    int n, m;
+    int choice;
     int M[MAX_SIZE][MAX_SIZE];
     int i, j;
     printf("*******************************************************************************\n");
