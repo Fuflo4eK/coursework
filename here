@@ -4,10 +4,11 @@
 #include <locale.h>
 #include <math.h>
 #define _CRT_SECURE_NO_WARNINGS
+#define MAX_SIZE 25
 int main() {
     setlocale(LC_ALL, ".UTF8");
     int n, m, choice;
-    int M[25][25];
+    int M[MAX_SIZE][MAX_SIZE];
     int i, j;
     printf("*******************************************************************************\n");
     printf("* Курсовой проект по дисциплине: \"Основы программирования и алгоритмизации\"   *\n");
